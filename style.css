@@ -1,0 +1,21 @@
+.bg-mc-img{
+    background-image: url(https://i.pinimg.com/originals/21/8c/6a/218c6a35f3dd6df792c7fe8479140b61.jpg);
+    background-position: top right;
+}
+
+.green-card{
+    background: rgba(0, 128, 0, 0.429);
+    
+}
+
+.card-offset{
+    transform: translateY(5vh);
+}
+
+@media screen and (max-width: 767px) {
+    
+    .card-offset{
+        transform: translateY(0);
+    }
+    
+}
